@@ -1,37 +1,60 @@
-Ident	Hex_Color	Transparency
-F1	#1F77B4	1
-F2	#FF7F0E	1
-F3	#2CA02C	1
-F4	#D62728	1
-F5	#9467BD	1
-F6	#8C564B	1
-F7	#E377C2	1
-L2|3_IT	#FFD6BA	1
-L3|5_IT	#54990F	1
-L5_IT	#94BF6A	1
-L6_IT	#CFE6B8	1
-L5_ET	#279E68	1
-L6_IT(Car3)	#FF595E	1
-L6b	#FF7291	1
-L6_CT	#FB8AC6	1
-L5|6_NP	#EEA1FD	1
-SST	#4CC9F0	1
-PV	#45B4D1	1
-PV_CHC	#3E9FB3	1
-VIP	#CCCCCC	1
-SNCG	#A3A6BC	1
-LAMP5	#7A81AC	1
-AST	#FB8B24	1
-OPC	#FEB931	1
-OLI	#FEE440	1
-MIC	#BF9F47	1
-VLMC|EC	#825F44	1
-GLUT	#6A994E	1
-GABA	#0077B6	1
-NoNc	#F77F00	1
-l1	#	0.7
-l2	#	0.6
-l3	#	0.5
-l4	#	0.4
-l5	#	0.3
-l6	#	0.2
+Ident	Hex_Color	Transparency	Group
+F1	#1F77B4	1	Area
+F2	#FF7F0E	1	Area
+F3	#2CA02C	1	Area
+F4	#D62728	1	Area
+F5	#9467BD	1	Area
+F6	#8C564B	1	Area
+F7	#E377C2	1	Area
+L2|3_IT	#FFD6BA	1	subclass
+L3|5_IT	#54990F	1	subclass
+L5_IT	#94BF6A	1	subclass
+L6_IT	#CFE6B8	1	subclass
+L5_ET	#279E68	1	subclass
+L6_IT(Car3)	#FF595E	1	subclass
+L6b	#FF7291	1	subclass
+L6_CT	#FB8AC6	1	subclass
+L5|6_NP	#EEA1FD	1	subclass
+SST	#4CC9F0	1	subclass
+PV	#45B4D1	1	subclass
+PV_CHC	#3E9FB3	1	subclass
+VIP	#CCCCCC	1	subclass
+SNCG	#A3A6BC	1	subclass
+LAMP5	#7A81AC	1	subclass
+AST	#FB8B24	1	subclass
+OPC	#FEB931	1	subclass
+OLI	#FEE440	1	subclass
+MIC	#BF9F47	1	subclass
+VLMC|EC	#825F44	1	subclass
+GLUT	#6A994E	1	majorclass
+GABA	#0077B6	1	majorclass
+NoNc	#F77F00	1	majorclass
+l1	#	0.7	Layer
+l2	#	0.6	Layer
+l3	#	0.5	Layer
+l4	#	0.4	Layer
+l5	#	0.3	Layer
+l6	#	0.2	Layer
+L2	#FF8247	1	subclass_cite
+L2/3	#CDCD00	1	subclass_cite
+L2/3/4	#FFFF00	1	subclass_cite
+L3/4	#C0FF3E	1	subclass_cite
+L3/4/5	#7FFFD4	1	subclass_cite
+L4	#98F5FF	1	subclass_cite
+L4/5	#4876FF	1	subclass_cite
+L4/5/6	#FFBBFF	1	subclass_cite
+L5/6	#AB82FF	1	subclass_cite
+L6	#8A2BE2	1	subclass_cite
+RELN	#CD8500	1	subclass_cite
+VIP	#DB7093	1	subclass_cite
+VIP_RELN	#CD9B9B	1	subclass_cite
+SST	#528B8B	1	subclass_cite
+PVALB	#4F94CD	1	subclass_cite
+PV_CHC	#B0E2FF	1	subclass_cite
+LAMP5	#FF1493	1	subclass_cite
+MG	#FFDAB9	1	subclass_cite
+ASC	#FF6A6A	1	subclass_cite
+OLG	#CDCDB4	1	subclass_cite
+OPC	#FFB6C1	1	subclass_cite
+VLMC	#EED8AE	1	subclass_cite
+EC	#FFD39B	1	subclass_cite
