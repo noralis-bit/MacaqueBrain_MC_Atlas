@@ -1,0 +1,9 @@
+pandas
+numpy
+matplotlib
+seaborn
+pycirclize
+anndata
+scipy
+numba
+opencv-python
