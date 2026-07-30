@@ -1,4 +1,4 @@
-# NICHES CellToCellSpatial Radius 100 Workflow
+# NICHES CellToCellSpatial Radius 50μm Workflow
 
 This folder contains the reproducible code used to run NICHES on the human
 motor cortex h5ad/Seurat data and to generate the downstream long table and
