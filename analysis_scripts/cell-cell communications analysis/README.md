@@ -28,16 +28,6 @@ Each row is one directed spatial cell-pair edge within the radius cutoff and
 one nonzero ligand-receptor event. The table is not filtered by p value or FDR;
 NICHES raw CellToCellSpatial output does not provide those columns here.
 
-During long-table export, the L4-like labels are harmonized:
-
-```text
-L3/5-IT.03 -> L4-IT.00
-L3/5-IT.04 -> L4-IT.01
-L3/5-IT.05 -> L4-IT.02
-```
-
-The same relabeling is also applied inside plotting scripts so figures remain
-consistent even when testing from an older exported long table.
 
 ## Long Table Workflow
 
@@ -85,22 +75,6 @@ python plots/10_plot_layer_lr_dotplot_and_volcano.py
 python plots/11_plot_lr_spatial_p100_overview.py
 ```
 
-By default, scripts 03, 04, and 05 generate plots for:
-
-```text
-Ast.00->L2/3-IT.04
-Ast.00->L4-IT.02
-```
-
-Scripts 06 and 07 count nonzero interaction records where L4-like cells are the
-sending or receiving side, respectively. Script 08 counts cells directly from
-the h5ad metadata and plots the percentage of all cells in `l3s` and `l3d`.
-Script 09 plots Ast.00 colocalization with `L2/3-IT.04` and `L4-IT.02` on chip
-`T578`, then renders cropped cellmask PNGs for the colocated cells. It requires
-the workstation-local `range_compression` module and cellmask directory.
-Script 10 builds an AnnData object from the NICHES wide table and makes the
-layer LR dotplot and L3s-vs-L3d volcano plot. Script 11 combines the multi-LR
-spatial P100 plotting workflow with the APP-SORL1 six-chip P100 overview.
 
 ## LR Database Notes
 
